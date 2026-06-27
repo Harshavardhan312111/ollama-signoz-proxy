@@ -23,6 +23,6 @@ app.post("/chat", async (req, res) => {
   }
 });
 
-app.listen(3000, () => {
-  console.log("Proxy running on port 3000");
+app.listen(8506, () => {
+  console.log("Proxy running on port 8506");
 });
